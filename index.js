@@ -18,6 +18,6 @@ function handleResize(event) {
 window.addEventListener("resize", handleResize); //window 사이즈가 변경될 때 나타나는 함수
 
 function handleClick() {
-    title.style.color = "blue"
+    title.style.color = "black";
 }
 title.addEventListener("click", handleClick);
